@@ -1,0 +1,12 @@
+{
+  "app": {
+    "name": "demo",
+    "debug": false
+  }
+}
+node_modules/
+dist/
+*.log
+targets:
+  default:
+    build: npm run build
